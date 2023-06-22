@@ -105,7 +105,10 @@ select {
   font-size: xx-medium;
   margin-right:-15px;
 }
-
+.delete-alarm:hover{
+  background-color: palevioletred;
+  color: #000;
+}
 .time {
   color: #0e141b;
   font-size: 22px;
