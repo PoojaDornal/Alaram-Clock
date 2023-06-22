@@ -59,10 +59,10 @@ function getInput(e) {
   setAlarm(alarmTime);
 }
 
-// Converting time to 24 hour format
-function convertToTime(hour, minute, second, amPm) {
-  return `${parseInt(hour)}:${minute}:${second} ${amPm}`;
-}
+// // Converting time to 24 hour format
+// function convertToTime(hour, minute, second, amPm) {
+//   return `${parseInt(hour)}:${minute}:${second} ${amPm}`;
+// }
 
 function setAlarm(time, fetching = false) {
   const alarm = setInterval(() => {
