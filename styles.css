@@ -34,7 +34,7 @@ select {
   appearance: none;
   outline: black;
   background-color: rgb(223, 220, 215);
-  width: 21%;
+  width: 18%;
   padding: 12px;
   font-weight: bold;
   border: none;
@@ -78,13 +78,7 @@ select {
   justify-content: space-between;
   width: 100%;
 }
-/* 
-.submit-button {
-  border-color: black;
-  border: 10px;
-  border-radius: 2rem;
-  font-weight: bold;
-} */
+
 
 .set-alarm-container {
   width: 100%;
