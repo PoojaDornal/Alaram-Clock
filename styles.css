@@ -105,7 +105,7 @@ select {
   font-size: xx-medium;
   margin-right:-15px;
 }
-.delete-alarm:hover{
+.delete-alarm:hover {
   background-color: palevioletred;
   color: #000;
 }
