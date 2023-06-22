@@ -16,14 +16,18 @@
     
     <div class="main-container d-flex">
       <div class="clock-container d-flex">
+       <!--Image Clock -->
         <img src="clock.svg" >
+      <!-- It displays the current time -->
         <div class="current-time mb" id= "current-time">_ : _ : _ </div>
+     <!--   Alarm  container -->
         <form class="alarm-form  mb">
           <div>
+         <!--Hours -->
           <select name="hours" id="hours" required></select>
-
+         <!--minutes -->
           <select required name="minutes" id="minutes"></select>
-
+         <!--seconds -->
           <select required name="seconds" id="seconds"></select>
           <select required name="am-pm" id="am-pm">
             <option value="AM">AM</option>
@@ -31,8 +35,11 @@
           </select>
           </div>
         </form> 
+          
+    <!--Set alarm button -->
           <button class="btn" id="submitButton" type="submit">Set Alarm</button>
-        
+          
+   <!-- List of all the alarms-->
         <div class="set-alarm-container">
           <div class="set-alarm-container-title mb">Alarms</div>
           <div class="alarms-container" id= "alarms-container"></div>
