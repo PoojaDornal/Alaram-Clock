@@ -120,6 +120,7 @@ function fetchAlarm() {
   });
 }
 
+//delete alarm
 function deleteAlarm(event, time, intervalId) {
   const self = event.target;
 
